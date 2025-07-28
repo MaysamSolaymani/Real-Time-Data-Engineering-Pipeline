@@ -45,3 +45,10 @@ End-to-end pipeline built with:
 git clone ...
 cd real-time-data-engineering-pipeline
 docker-compose up
+
+## 🛠️ To Do
+ Add Kafka producer script
+ Build Spark streaming app
+ Setup Airflow DAG
+ Add Trino connection
+ Create dbt models
