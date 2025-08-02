@@ -3,7 +3,7 @@ from pyspark.sql.functions import from_json, col
 from pyspark.sql.types import StructType, StringType, TimestampType
 
 if __name__ == '__main__':
-    spark = SparkSession.builder \
+    spark = SparkSession.builder  \
         .appName("KafkaSparkStreaming") \
         .getOrCreate()
 
